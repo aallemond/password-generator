@@ -33,6 +33,39 @@ if (confirmLength <= 7 || confirmLength >=129){
 
 }
 
+//Array of potential characters determined by users responses to prompts
+var potentialChars = [];
+
+//If statements used to add characters to the potentialChars array
+if (confirmSpecial == true){
+  potentialChars = potentialChars.concat(specialChars)
+}
+
+if (confirmNum == true){
+  potentialChars = potentialChars.concat(numbers)
+}
+
+if (confirmLower == true){
+  potentialChars = potentialChars.concat(alphaLowercase)
+}
+
+if(confimrUpper == true){
+  potentialChars = potentialChars.concat(alphaUppercase)
+}
+
+//Logs new array of potential password characters in the console
+console.log(potentialChars);
+
+//Variable for the new user generated password
+var newPassword = ""
+
+//For loop to select random characters from the potentialChars array
+for (var i=0; i < confirmLength; i++){
+  newPassword = newPassword + potentialChars[Math.floor(Math.random() * potentialChars.length)];
+}
+
+
+
 
 
 // Write password to the #password input
