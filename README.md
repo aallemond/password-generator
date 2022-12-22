@@ -4,7 +4,7 @@
 
 This application will generate a randomized password based on user selected parameters such as length and characters used.
 
-! [image](./assets/images/password-generator.png)
+! [Screenshot of Application](./assets/images/password-generator.png)
 
 
 ## Installation
