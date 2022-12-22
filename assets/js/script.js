@@ -24,7 +24,7 @@ if (confirmLength <= 7 || confirmLength >=129){
 
 }
 
-
+//confirms to select additional password parameters
  confirmSpecial = confirm("Click OK to use special characters in your password.");
  confirmNum = confirm("Click OK to use numbers in your password.");
  confirmLower = confirm("Click OK to use lowercase letters in your password.");
@@ -32,7 +32,6 @@ if (confirmLength <= 7 || confirmLength >=129){
 
 
 }
-
 
 
 
