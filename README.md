@@ -5,7 +5,7 @@
 This application will generate a randomized password based on user selected parameters such as length and characters used.
 
 ![Screenshot of Application](./assets/images/password-generator.png)
-[Click here to visit the page](aallemond.github.io/password-generator)
+[Click here to visit the page](https://aallemond.github.io/password-generator/)
 
 
 
